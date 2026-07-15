@@ -77,6 +77,12 @@ The automated script was running on the old credentials triggering this failed l
 ### once the soar reduces the no.of incident into few then it uses "bi-directional syschronization" .It ensures that the SIEM and the ticketing tool always match perfectly.
 <img width="916" height="564" alt="image" src="https://github.com/user-attachments/assets/bafd62cb-210f-4342-af03-1718ef6c277c" />
 
+Difference between ioc and ioa :
+Ioa is collected to stop the active attack and ioc are collected as evidence for passive attack
+Ioc and ioa are present in both network flow and event logs - analyse both of them to find the active connection for ioa 
+<img width="954" height="372" alt="image" src="https://github.com/user-attachments/assets/67f694af-165e-4f21-a6ad-74851334c12d" />
+
+
 
 
 
