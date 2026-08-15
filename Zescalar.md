@@ -112,3 +112,36 @@ It shows the ip is denied or something
 ### Zescalar analyser 
 ### This tool is end of life but it is used to diagnose the latency and the health of the data center 
 <img width="1450" height="588" alt="image" src="https://github.com/user-attachments/assets/7c662de8-c350-446e-8b63-7efa91066ea1" />
+
+
+
+### Lets talk about the zescalar components 
+### Zescalar central authority (ZCA)
+### Its is a brain of this archtecture 
+<img width="1057" height="734" alt="image" src="https://github.com/user-attachments/assets/d905f531-21a1-490d-8369-5f0b96fc11eb" />
+
+### This is known as secure mobile cloud architecture
+### ZCA is the combinations of distributed servers. there are six types application server ,api gateway, data base, load balancer, authentication , Logging monitoring 
+
+<img width="1825" height="916" alt="image" src="https://github.com/user-attachments/assets/62d5c5d8-717c-4c53-812e-5f7642b5c08e" />
+
+### Policies 
+<img width="1714" height="834" alt="image" src="https://github.com/user-attachments/assets/b504c7d6-7e9c-4e1c-afee-d07469f5ef47" />
+
+### oranisation specific data store 
+
+<img width="1885" height="962" alt="image" src="https://github.com/user-attachments/assets/cae8d2fd-cfc8-40d6-8c8d-ebf798af2726" />
+
+### Zen node - zescalar enforcement node - It pulls the policies from the central authority and user traffic passes through zen node 
+<img width="944" height="660" alt="image" src="https://github.com/user-attachments/assets/53b40e00-c5e6-49e4-b552-d06d94ab4257" />
+
+### zca - monitors health of this zen node
+
+<img width="1206" height="754" alt="image" src="https://github.com/user-attachments/assets/87b0a60b-326b-4968-8ca8-2f15943d0343" />
+
+
+## Lets talk about the admin page -SMUI - Secure mobile user inferface
+<img width="1456" height="1046" alt="image" src="https://github.com/user-attachments/assets/af0d89c5-0532-4c1d-8c15-5fbb605c4e88" />
+
+<img width="958" height="817" alt="image" src="https://github.com/user-attachments/assets/52618ea1-401e-459c-9120-a306e79dcbf9" />
+
