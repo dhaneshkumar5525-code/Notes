@@ -145,3 +145,47 @@ It shows the ip is denied or something
 
 <img width="958" height="817" alt="image" src="https://github.com/user-attachments/assets/52618ea1-401e-459c-9120-a306e79dcbf9" />
 
+## Components 
+### 1 - Zen - Zescalar enforcement node 
+### It is the main checkpoint where traffic is intercepted and blocked if neeeded 
+### Use cases of the Zen node 
+<img width="1306" height="718" alt="image" src="https://github.com/user-attachments/assets/3537a900-d70c-4117-8029-08024c83b30a" />
+
+### All this checks are done in the parallel not one by one saving the time
+ 
+### 2 - Cloud router and cloud relays 
+<img width="1423" height="751" alt="image" src="https://github.com/user-attachments/assets/84ac027c-a66c-4fa9-88fe-b5ba47688121" />
+
+### It sends the logs from the zen node >>> nanalog clusters (servers) >>> NSS (nanolog streaming services (real time streaming) >>> Siem
+### Uses 
+### Routing : Log routes to the server 
+### Multi Tenant Isolation : It isolates each logs seperatly and sends to the server 
+### Load Distribution : It distribute the loads reducing the loads
+### Resilence : Incase the server fails then route to the another server 
+
+
+### 3 - Nanolog clusters - SMSM - Secure Mobile Storage Module 
+<img width="1238" height="796" alt="image" src="https://github.com/user-attachments/assets/91daa7b1-1ace-4f86-b2a8-a10be4d913be" />
+
+### Why it is compressed ? 
+### To reduce the space 
+<img width="1590" height="798" alt="image" src="https://github.com/user-attachments/assets/9dd52fdc-c09e-427b-9d05-a2ea48f5f486" />
+
+### 4 - Pac server (Imp)
+### Proxy Auto configuration2
+
+(It routes the traffic smartly)
+### It is used to provide java script pac file to the user that decides the user traffic to sent direct to the internet or to the near by the zen node
+<img width="930" height="608" alt="image" src="https://github.com/user-attachments/assets/11b7956a-fe8f-40e2-9266-fc966116391d" />
+
+<img width="973" height="872" alt="image" src="https://github.com/user-attachments/assets/5e64789f-22d0-4d9e-a3de-f76426540e43" />
+
+
+
+
+
+
+
+
+
+
