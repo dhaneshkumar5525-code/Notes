@@ -180,12 +180,42 @@ It shows the ip is denied or something
 
 <img width="973" height="872" alt="image" src="https://github.com/user-attachments/assets/5e64789f-22d0-4d9e-a3de-f76426540e43" />
 
+### 5 - smlb secure multi-tenent load balancer 
+### It acts as a load balancer it distributes the traffic to zen node and monitors help 
+### IMP - the traffic flows from the zcc to the load balancer to the zen node when it is returning it comes directly to the zcc .
+### ( Because the is no use to send the traffic to the load balancer to balance load backwards . This reduces latency ) 
+
+<img width="817" height="461" alt="image" src="https://github.com/user-attachments/assets/11615024-fee2-469f-a57a-97bef6ca724f" />
+
+(Note: Load balancer doesn't inspect traffic)
+
+### 5 - Zvpn zescalar virtual private network
+### (IMP - ZCC IS NOT REQUIRED FOR THE ZVPN)
+### There are two types of vpn instance 
+### there bridged interface. It is a plug and play vpn connection a direct connection
+
+### Type 2 - Smnet (Smart network) (the brain) based interface 
+### It routes the traffic smartly in the shortest path and the commpresed data 
+
+### (( The diff btw them is if you need a simple connection choose bridged connection and  if you want the smartest connection choose smnet interface))
+<img width="1712" height="1029" alt="image" src="https://github.com/user-attachments/assets/ebfc5cf2-7afa-4f09-a938-f97ab4b4223e" />
+
+### Traffic flow of this zvpn 
+### Internal office >> zvpn >> smlb >>Zvpn node >>> zen node >> internet 
+<img width="1849" height="1020" alt="image" src="https://github.com/user-attachments/assets/b57f55de-a616-4771-aa84-3bdbd05e8a97" />
+
+### 6- Svpn SSL vpn node 
+### Svpn is a cloud vpn that protects the traffic through zesclar client connector zcc 
+<img width="1617" height="1026" alt="image" src="https://github.com/user-attachments/assets/91c9ffa4-c13b-40a0-905e-7387e85d3601" />
+
+### svpn uses tunnel 2.0 it is used for tls over 443
+### Traffic flow 
+<img width="1743" height="1043" alt="image" src="https://github.com/user-attachments/assets/07554fca-3dc0-4529-aa48-29902652ae62" />
 
 
+### Lets talk about the tunnel 1.0 and 2.0
+### Tunnel 1.0 
+<img width="1899" height="1066" alt="image" src="https://github.com/user-attachments/assets/6cc9bc52-a4aa-43a3-a014-e78fb66c5522" />
 
-
-
-
-
-
+<img width="1711" height="1024" alt="image" src="https://github.com/user-attachments/assets/4f494058-066c-449b-8ed1-f7294e0c3cca" />
 
