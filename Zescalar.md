@@ -1,5 +1,7 @@
-Zescalar dashboard 
+# Zescalar dashboard 
+
 <img width="1666" height="1076" alt="image" src="https://github.com/user-attachments/assets/59084399-dc56-4bfd-a9b9-9e22ffded064" />
+
 question mark symbol
 <img width="422" height="911" alt="image" src="https://github.com/user-attachments/assets/aadc16e5-6653-45d4-b015-79630d84fb5e" />
 this is the entire product of the zescalar
@@ -218,4 +220,40 @@ It shows the ip is denied or something
 <img width="1899" height="1066" alt="image" src="https://github.com/user-attachments/assets/6cc9bc52-a4aa-43a3-a014-e78fb66c5522" />
 
 <img width="1711" height="1024" alt="image" src="https://github.com/user-attachments/assets/4f494058-066c-449b-8ed1-f7294e0c3cca" />
+
+
+#### --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+### zescalar trail version
+### we will receive the admin url  - admin.zescalartwo.net
+### first navigate to the admin >> usermangement >> creating a user id and the password 
+<img width="811" height="804" alt="image" src="https://github.com/user-attachments/assets/a22efbc5-7d1c-4824-82ba-924601d50e93" />
+
+### activate changes 
+<img width="554" height="601" alt="image" src="https://github.com/user-attachments/assets/6714cc7b-da5f-40f9-8c31-d2ac50649897" />
+
+### lets download the zcc 
+### admin >>> mobile >>> Zcc 
+<img width="1049" height="818" alt="image" src="https://github.com/user-attachments/assets/542841a6-a705-4ee0-9fdd-9fad0ebbb6da" />
+
+### click the link and it takes to the new browser 
+<img width="1918" height="879" alt="image" src="https://github.com/user-attachments/assets/bfec7fce-018d-4cfc-94fd-ac43abf5860b" />
+
+<img width="864" height="621" alt="image" src="https://github.com/user-attachments/assets/0e078f66-6aae-4fe7-8f4a-7f97b4dc0c9b" />
+
+<img width="1319" height="563" alt="image" src="https://github.com/user-attachments/assets/3684c669-a8a1-4150-887e-79dc74facf11" />
+
+### New release
+<img width="1249" height="503" alt="image" src="https://github.com/user-attachments/assets/e47681ef-80ff-4914-9c9e-544a818754d2" />
+
+### ZCC downloaded
+<img width="656" height="488" alt="image" src="https://github.com/user-attachments/assets/1f6d6f82-a5fc-4b4a-b086-297c26cfa620" />
+
+
+
+
+
+
+
+
 
