@@ -249,6 +249,56 @@ It shows the ip is denied or something
 ### ZCC downloaded
 <img width="656" height="488" alt="image" src="https://github.com/user-attachments/assets/1f6d6f82-a5fc-4b4a-b086-297c26cfa620" />
 
+### After installing open the portal and enter user id
+<img width="928" height="608" alt="image" src="https://github.com/user-attachments/assets/ef696682-a968-4d03-96e5-1273ccf49a59" />
+
+<img width="655" height="505" alt="image" src="https://github.com/user-attachments/assets/12d586dc-e358-49e5-8488-0e069e524c7e" />
+
+<img width="655" height="494" alt="image" src="https://github.com/user-attachments/assets/4f5cc92c-8c54-4035-94a6-743c22b4fd77" />
+
+<img width="682" height="527" alt="image" src="https://github.com/user-attachments/assets/ce3f679a-6841-413c-916d-66a09a447aff" />
+
+### Connected 
+<img width="653" height="506" alt="image" src="https://github.com/user-attachments/assets/44888d39-adff-4a4f-8a5d-62c632485c6d" />
+
+<img width="1287" height="572" alt="image" src="https://github.com/user-attachments/assets/3cf5d725-5f85-4258-9c28-dba2c48fa38c" />
+
+<img width="895" height="580" alt="image" src="https://github.com/user-attachments/assets/32ec6dcb-ba1b-45fa-8251-648853843396" />
+
+### zs2-del1-1f4-sme zescalar server 2 -delhi datacenter 1- 1st floor block f 4th rack sme 
+## About the policy enforcement 
+### SSME - single scan, Multi action 
+<img width="1829" height="998" alt="image" src="https://github.com/user-attachments/assets/0c28f6a4-746b-4a0e-bdbc-3fefd197e655" />
+
+### In the traditional way the traffic goes in line this causes latency 
+### In ssme all the technologies works in parallel this reduces latency 
+<img width="1657" height="861" alt="image" src="https://github.com/user-attachments/assets/8a6310eb-0821-4041-8ec4-858f33ed37b4" />
+
+<img width="1505" height="683" alt="image" src="https://github.com/user-attachments/assets/d69b143f-33a0-4288-ad1a-f73cd79fbfeb" />
+
+### Policy clashes ? - NO, Zescalar uses structured precedence model (one after another) first firewall and then url filtering 
+### If a rule is blocked at the firewall it will not reach to the url filtering 
+
+## GET vs POST (Order of execution)
+<img width="1815" height="495" alt="image" src="https://github.com/user-attachments/assets/ec01eae2-9ceb-48a1-b148-bd2dd284b76c" />
+
+<img width="1753" height="999" alt="image" src="https://github.com/user-attachments/assets/e6bd0083-3d63-4a78-a857-e44c0c557551" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
