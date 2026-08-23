@@ -284,9 +284,18 @@ It shows the ip is denied or something
 
 <img width="1753" height="999" alt="image" src="https://github.com/user-attachments/assets/e6bd0083-3d63-4a78-a857-e44c0c557551" />
 
+## Firewall License 
+<img width="1301" height="734" alt="image" src="https://github.com/user-attachments/assets/9e2b555e-57f9-451f-ac81-5b2a917e684e" />
 
+### Dpi- deep packet inspection identify the application it is coming from
+<img width="1299" height="716" alt="image" src="https://github.com/user-attachments/assets/4a115dfe-3a1e-4513-b74c-309d6c58a8b3" />
 
+### We can see in the traditional firewall was not blocked 
+<img width="1861" height="1015" alt="image" src="https://github.com/user-attachments/assets/ebbdb71d-c0d2-4584-bfc9-f5719d7e0556" />
 
+### We can redirect the dns traffic to the internal dns server using DNET
+### Zescalar focus on the destination net and sme(service multi-tenet edge) focus on the source net
+<img width="1828" height="1013" alt="image" src="https://github.com/user-attachments/assets/0145d061-f569-4046-b0b2-eed3ef425a38" />
 
 
 
