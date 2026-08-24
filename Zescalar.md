@@ -297,7 +297,16 @@ It shows the ip is denied or something
 ### Zescalar focus on the destination net and sme(service multi-tenet edge) focus on the source net
 <img width="1828" height="1013" alt="image" src="https://github.com/user-attachments/assets/0145d061-f569-4046-b0b2-eed3ef425a38" />
 
+### Difference between zvpn and sme
+<img width="1903" height="966" alt="image" src="https://github.com/user-attachments/assets/abf5bab1-303a-4be4-8313-23a0a9debf1c" />
 
+
+### The traffic directly returns to the zvpn and then to the user (directly)
+### Taffic flow in the firewall (7th day time: 13:13)
+<img width="1317" height="732" alt="image" src="https://github.com/user-attachments/assets/2b5ba19b-defa-45cf-83f8-684ae3d7ef27" />
+
+### Traffic flow of the pcap 
+<img width="1308" height="730" alt="image" src="https://github.com/user-attachments/assets/2fc09fd0-ce13-4888-802e-e8b80541d589" />
 
 
 
