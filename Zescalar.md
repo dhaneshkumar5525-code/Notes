@@ -308,14 +308,35 @@ It shows the ip is denied or something
 ### Traffic flow of the pcap 
 <img width="1308" height="730" alt="image" src="https://github.com/user-attachments/assets/2fc09fd0-ce13-4888-802e-e8b80541d589" />
 
+# Zescalar Client Connector 
+<img width="950" height="713" alt="image" src="https://github.com/user-attachments/assets/8db0ce1d-fa7d-4513-9793-a039b11b1b57" />
+
+### zcc >>> router public ip >>> cloud network >>> Identity (IDP) verfication >>> Assigned to nearest server >>> cloud zescalar (virtual Ip)
+### Server Ip : Virtual Ip
+### Client IP : Our private ip
+<img width="1252" height="764" alt="image" src="https://github.com/user-attachments/assets/be739aae-45aa-44d3-8e1c-be7f3202d9eb" />
+
+### Notification Tab
+<img width="949" height="717" alt="image" src="https://github.com/user-attachments/assets/8b412067-0eac-4adc-91bc-cdf16832743e" />
+
+### We can see the notification about the updates 
+### More tab
+<img width="946" height="729" alt="image" src="https://github.com/user-attachments/assets/107bbc8b-36ba-4f77-83f4-cb35a246750d" />
 
 
+### There is a Advance setting in the tab requires password (Mainly disables)
+<img width="990" height="734" alt="image" src="https://github.com/user-attachments/assets/eedf1d81-6491-4255-aa35-394f2a50ca12" />
 
+### Mainly used for the bypass
+### Troubleshoot tab
+### Start packet capture - pcap file
+<img width="651" height="442" alt="image" src="https://github.com/user-attachments/assets/409d36c3-18bf-47bf-b117-baf80e0d3ea6" />
 
+### Export log - used to troubleshoot in connection
+<img width="1313" height="715" alt="image" src="https://github.com/user-attachments/assets/b3eafa7f-1907-43d5-bb1f-3a0a2638bb6c" />
 
-
-
-
+### Restart tunnel
+<img width="661" height="505" alt="image" src="https://github.com/user-attachments/assets/0b905984-ad2a-4df2-9451-0dd98ccd664b" />
 
 
 
