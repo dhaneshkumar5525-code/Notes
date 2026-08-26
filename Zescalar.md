@@ -338,6 +338,75 @@ It shows the ip is denied or something
 ### Restart tunnel
 <img width="661" height="505" alt="image" src="https://github.com/user-attachments/assets/0b905984-ad2a-4df2-9451-0dd98ccd664b" />
 
+### Repair app and clear log options are self explainatory
+### About option 
+<img width="943" height="502" alt="image" src="https://github.com/user-attachments/assets/b52bbbf6-c635-4636-929e-ca039c7a59af" />
+
+### Auto update - updates latest version
+# Pratical
+<img width="1066" height="1064" alt="image" src="https://github.com/user-attachments/assets/fd42cd2a-a28a-4558-bcc9-a8678c5297d4" />
+
+###  Configuring a pac file 
+<img width="806" height="881" alt="image" src="https://github.com/user-attachments/assets/02925456-bb2d-4238-9910-a26102825b3a" />
+
+### We can see the pac file
+<img width="1919" height="863" alt="image" src="https://github.com/user-attachments/assets/72970bbe-a6b5-4073-8221-0aa6d51d9131" />
+
+### If any policy is not applied for the user this proxy.pac - service default will be applied 
+<img width="1477" height="162" alt="image" src="https://github.com/user-attachments/assets/8d5fda94-96b7-4e92-80d4-460ffb571bd2" />
+
+### We can see the manage version, export, preview and delete
+<img width="1763" height="254" alt="image" src="https://github.com/user-attachments/assets/6899f9c9-3934-4381-a859-d0f79d5638d8" />
+
+### click on the manage version
+<img width="1771" height="505" alt="image" src="https://github.com/user-attachments/assets/9343a2c5-7449-4aa7-a6f9-ea7c52cf69a1" />
+
+### Action button 
+<img width="1222" height="330" alt="image" src="https://github.com/user-attachments/assets/badf7e7b-8701-4b26-840b-435fc6f7cc30" />
+
+### Deploy - Enables for the policy 
+### Create branch - We can test policy on machine using a branch (duplicate) without changing the others 
+### Stage deployment - deployment on specific group for testing 
+### Compare two version button - Compare two versions side by side and shows the what are the changes 
+<img width="1853" height="792" alt="image" src="https://github.com/user-attachments/assets/7d744861-b9ba-4478-8182-e26f09e7e6f8" />
+
+### Deployed vesrion option shows the version
+<img width="1882" height="817" alt="image" src="https://github.com/user-attachments/assets/0736cc6e-395d-418b-ab48-6af7d9eb3e9e" />
+
+<img width="1787" height="961" alt="image" src="https://github.com/user-attachments/assets/bccb65ae-7626-4189-b186-475e4eaf70d6" />
+
+<img width="1724" height="709" alt="image" src="https://github.com/user-attachments/assets/ee32aaf4-b772-46ae-978f-ebee4734ff16" />
+
+<img width="738" height="476" alt="image" src="https://github.com/user-attachments/assets/377bf7db-9a4a-41e0-b42b-c6cb04eccfda" />
+
+### We can see in the last line there is default with two virtual ips primary and secondary virtual ips 
+### Primary = Nearest from our location 
+### Secondary = Second nearest location 
+### Can we switch 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
