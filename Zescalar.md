@@ -417,9 +417,13 @@ It shows the ip is denied or something
 
 <img width="1303" height="367" alt="image" src="https://github.com/user-attachments/assets/fb104322-a50b-4373-b1bf-5b92a476f19f" />
 
- 
+### There are three types of data centers 1) Regular dc 2) regional surcharge dc (additional fee should be paided for using it 3) International FedRamp dataplane centers ( used for security and compliances) federal risk and authorization management program 
+<img width="1289" height="455" alt="image" src="https://github.com/user-attachments/assets/74e8f71a-50aa-4099-b37f-59f9b5c3222a" />
 
+### GRE - Generic Routing Encapulations 
+<img width="1465" height="957" alt="image" src="https://github.com/user-attachments/assets/64f22dda-5253-4153-8b8b-68853fc9c043" />
 
+### Note : Gre does encrypt the traffic , for encryption use ipsec tunnel
 
 
 
