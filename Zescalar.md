@@ -382,18 +382,42 @@ It shows the ip is denied or something
 ### We can see in the last line there is default with two virtual ips primary and secondary virtual ips 
 ### Primary = Nearest from our location 
 ### Secondary = Second nearest location 
-### Can we switch 
+### Q.Can we switch between them if primary and secondary if the speed is slow ?
+### Answer : No, We can't switch between until the primary server is completely down.
 
+### If we can to connect to the secondary server use custom pac proxy file
+<img width="1618" height="609" alt="image" src="https://github.com/user-attachments/assets/98545a28-3af9-4f91-a7db-0f45fc837d84" />
 
+### We can see the zescalar destination Ip
+<img width="1428" height="766" alt="image" src="https://github.com/user-attachments/assets/e5e3c0a7-7390-47c6-b65e-aab228545a4b" />
 
+### We can see the request url name.It is a sign that we are using the zescalar 
+### Lets try turning OFF in zescalar and see we can find the request url and destination change 
+<img width="1479" height="820" alt="image" src="https://github.com/user-attachments/assets/526381b1-b426-44a9-86c9-977fd62aee9d" />
 
+### we can see no url because the request goes to the internet
+## For adding exeception for the pac file
+<img width="1762" height="898" alt="image" src="https://github.com/user-attachments/assets/bcf44368-a1c4-4ea6-9ef0-27e97338a15c" />
 
+### Making a custom pac file 
+### Navigate to the help.zescalar.com/zia/writing-pac-file
+### Senario : The company abc has using hybrid model both wfo and wfh. In the office they use a different proxy in the wfh they use zescalar. Company wants the employee working from the office should use office proxy 
+### so we configure the proxy PAC file and write a condition
+### Condition : If a source ip  matches to the public ip of company then direct the traffic to the companies default proxy
+<img width="1204" height="710" alt="image" src="https://github.com/user-attachments/assets/bca28c53-6bc8-44b1-bada-32ad68f1175d" />
 
+### In the same way we can add the destination url and ips of nearest proxy servers using the config.zescalar.com
+<img width="1916" height="767" alt="image" src="https://github.com/user-attachments/assets/488b3d9d-b8b6-4277-a61c-9eaca47e7d61" />
 
+### Default vs sub cloud routing
+<img width="835" height="547" alt="image" src="https://github.com/user-attachments/assets/1d587b70-7265-4540-b98e-169d0678f43c" />
 
+### Zescalar >> Adminstration >>> Dc exclusion >>> subclouds 
+<img width="1327" height="687" alt="image" src="https://github.com/user-attachments/assets/20120d56-0c06-4761-b204-02595082e1f4" />
 
+<img width="1303" height="367" alt="image" src="https://github.com/user-attachments/assets/fb104322-a50b-4373-b1bf-5b92a476f19f" />
 
-
+ 
 
 
 
