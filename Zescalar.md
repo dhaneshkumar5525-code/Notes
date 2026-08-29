@@ -424,22 +424,76 @@ It shows the ip is denied or something
 <img width="1465" height="957" alt="image" src="https://github.com/user-attachments/assets/64f22dda-5253-4153-8b8b-68853fc9c043" />
 
 ### Note : Gre does encrypt the traffic , for encryption use ipsec tunnel
+### GRE VS IPSEC
+### Zescalar recommends gre allows 1 gbps per tunnel
+<img width="1222" height="438" alt="image" src="https://github.com/user-attachments/assets/d36f8217-9065-4c1b-beda-07bc0364a714" />
 
+### Q. Customer ask for three gb tunnel but we know the gre provide 1gb so we will make three tunnels between two routers and to split the traffic between them we will use load balancer 
+<img width="814" height="977" alt="image" src="https://github.com/user-attachments/assets/448e2c7b-62aa-4173-88b9-7d2dcc36ef3f" />
 
+### Gre normal architecture 
+<img width="1828" height="965" alt="image" src="https://github.com/user-attachments/assets/7d41329b-a5e4-4e20-975a-aec9ca342be4" />
 
+### Mtu and mss calculation 
+<img width="1858" height="980" alt="image" src="https://github.com/user-attachments/assets/1a1a0282-e1e9-4d35-8b5b-d2d4381bbc95" />
 
+### Settig up gre tunnel 
+### But first we need to know the primary and secondary ips using a url
+<img width="771" height="560" alt="image" src="https://github.com/user-attachments/assets/9cc496fb-5994-4e43-ba85-108186b63565" />
 
+### Administration >>> Static ips & GRE Tunnels 
+<img width="1320" height="540" alt="image" src="https://github.com/user-attachments/assets/4f9de366-87b7-43d7-86e2-99d85b7ff20c" />
 
+### Add static ip > 5.5.5.6 (random) >>> Search for geo location
+<img width="725" height="715" alt="image" src="https://github.com/user-attachments/assets/e62e30ad-2ef2-4849-afd7-1dd1a5983463" />
 
+### Save. Next navigate to the gre tunnel tab >>> Add gre tunnel >>> Select ip 
+<img width="1226" height="528" alt="image" src="https://github.com/user-attachments/assets/e075dab7-29ae-437b-93b9-8e20b5c6b46c" />
 
+### Nearest data centers is given (reccomended) 
+<img width="757" height="449" alt="image" src="https://github.com/user-attachments/assets/98245a68-2aac-4055-9ff3-f1a56af4172a" />
 
+### Select internal ip range 
+<img width="759" height="468" alt="image" src="https://github.com/user-attachments/assets/e9e78c75-f740-47b2-b3a4-dd9576332d52" />
 
+### Final review 
+<img width="757" height="605" alt="image" src="https://github.com/user-attachments/assets/f1327dfe-ae64-4e30-92cc-65704711cba7" />
 
+### 8 Ips are assigned for two tunnels divded into 4 each. each section has netword and broadcast ip and now each has two usagable ips 
+### Next go to the administartion >>> resources >> Location management >>> select ip everything will be filled 
+<img width="1005" height="615" alt="image" src="https://github.com/user-attachments/assets/a0464464-15c2-48bd-88e0-f7d4803a1284" />
 
+### Save and the remaining changes will be done in the router 
 
+### Ipsec tunnel 
+<img width="1256" height="373" alt="image" src="https://github.com/user-attachments/assets/bd47cbb6-c3a1-41e9-9068-cd8b5328dd88" />
 
+<img width="987" height="535" alt="image" src="https://github.com/user-attachments/assets/ab511d53-e146-4c73-85e8-c14507093b24" />
 
+<img width="882" height="332" alt="image" src="https://github.com/user-attachments/assets/f2068e60-5042-44ce-a998-d54288f702d8" />
 
+<img width="1043" height="405" alt="image" src="https://github.com/user-attachments/assets/5a3fb080-e21e-4aca-872e-3395fb81d0c3" />
 
+### Creating a ipsec tunnel 
+### Administartion >>> vpn credentials 
+<img width="1112" height="640" alt="image" src="https://github.com/user-attachments/assets/5dba5cd5-0553-4a74-99a0-55eb789fb4b2" />
 
+### >> Add vpn credentaisla
+<img width="975" height="453" alt="image" src="https://github.com/user-attachments/assets/0efa4ccc-5548-4aa3-850a-c8e706e54513" />
 
+<img width="546" height="507" alt="image" src="https://github.com/user-attachments/assets/edbedd9b-824f-4b7f-8c08-729d04d7d464" />
+
+### FQDN stands for Fully Qualified Domain Name.It is an option used to identify a VPN gateway or server by its human-readable internet address (like ://yourcompany.com) instead of its numerical IP address (like 192.168.1.1).
+
+### Enter pre-shared key and save and update location 
+### >>> Location management >> add location >>> Location type (Important)
+<img width="703" height="537" alt="image" src="https://github.com/user-attachments/assets/de84226a-20b9-4973-9644-cb6efcad089d" />
+
+### Vpn credentials >>> select >> Save
+<img width="714" height="412" alt="image" src="https://github.com/user-attachments/assets/6c56614e-c71b-4d5b-ac17-f13c2deccc0c" />
+
+###  (Important note : for creating a gre or ipsec tunnel , it is done in two phases. phase 1 configuring the zescalar , phase 2 configuring the router )
+### Traffic flow after creation
+<img width="1233" height="628" alt="image" src="https://github.com/user-attachments/assets/72018adf-17af-4723-bb11-2f6d0672500c" />
+
+### (( For gre tunnel static ip is must , where in ipsec dynamic ip also works ))
