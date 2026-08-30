@@ -497,3 +497,42 @@ It shows the ip is denied or something
 <img width="1233" height="628" alt="image" src="https://github.com/user-attachments/assets/72018adf-17af-4723-bb11-2f6d0672500c" />
 
 ### (( For gre tunnel static ip is must , where in ipsec dynamic ip also works ))
+
+### Zscalar app provisioning  and enrollment 
+<img width="1450" height="842" alt="image" src="https://github.com/user-attachments/assets/453fd69e-6237-41ca-a3bc-fae97e430d50" />
+
+### (( pac file == browser , gre + ipsec tunnel == Branch connected to the cloud ))
+### zcc = helps the client traffic to sent to the zescalar server safely and as shown in the above image mobile admin portal is used for provisioning and app config
+
+### The difference between the zscalar admin portal and zscalar mobile admin portal
+<img width="1487" height="609" alt="image" src="https://github.com/user-attachments/assets/bd61f598-b26f-40f9-ab0a-82c4a24e297b" />
+
+<img width="1435" height="840" alt="image" src="https://github.com/user-attachments/assets/ce9c5805-3872-4660-ae71-65e6f0065fc3" />
+
+<img width="1646" height="1074" alt="image" src="https://github.com/user-attachments/assets/228fdcad-6197-4ce8-b66c-5cb914c7ca5c" />
+
+### Path >>> zcc (domain -user@abc.com) >>> zcc client downloads two profiles 1) app profile 2) Forwarding profile  from mobile admin portal ( But before connecting to the mobile admin portal the client should know (url) how to access mobile portal
+
+### for this reason >> the client runs a api request from the global mobile admin portal >>>  central authority >>> to check where the user belongs >>> checks and ask user belongs to zscloub3 >>> Now it knows the mobile admin portal and downloads app profile and forwarding profile 
+<img width="693" height="438" alt="image" src="https://github.com/user-attachments/assets/fd8e667d-fd66-4b10-a829-3dea8febb04a" />
+
+### Authentication 
+<img width="1145" height="696" alt="image" src="https://github.com/user-attachments/assets/d1a65694-49a3-426a-8e69-3f36b8778eb4" />
+
+### ZCC client connector 
+### Lets login
+<img width="699" height="522" alt="image" src="https://github.com/user-attachments/assets/3675a480-00b9-4b2b-8210-7fa782977c26" />
+
+### Ca checks for the id 
+<img width="698" height="529" alt="image" src="https://github.com/user-attachments/assets/1df53bf3-5eb2-47c0-b143-b3570d26b08d" />
+
+<img width="683" height="504" alt="image" src="https://github.com/user-attachments/assets/4870f7b4-95bf-4db4-868f-67a1780b02ca" />
+
+### Mobile admin portal
+<img width="1303" height="682" alt="image" src="https://github.com/user-attachments/assets/b081fc4b-f1ed-48b5-828c-78343e29e678" />
+
+### we can see the device management 
+<img width="1309" height="603" alt="image" src="https://github.com/user-attachments/assets/1eb29398-63bb-4c88-9385-420cfa210db6" />
+
+
+
