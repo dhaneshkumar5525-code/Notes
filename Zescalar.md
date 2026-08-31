@@ -2,23 +2,30 @@
 
 <img width="1666" height="1076" alt="image" src="https://github.com/user-attachments/assets/59084399-dc56-4bfd-a9b9-9e22ffded064" />
 
-question mark symbol
+### question mark symbol
 <img width="422" height="911" alt="image" src="https://github.com/user-attachments/assets/aadc16e5-6653-45d4-b015-79630d84fb5e" />
-this is the entire product of the zescalar
+
+### this is the entire product of the zescalar
 <img width="1602" height="785" alt="image" src="https://github.com/user-attachments/assets/aa09f439-d4a7-4fdc-95ea-6324ff6b70da" />
-This is the dashboard 
+
+### This is the dashboard 
 <img width="1598" height="869" alt="image" src="https://github.com/user-attachments/assets/cc57b6a9-ffd4-4afc-92dc-12f5d15d31ce" />
-This is analystics
+
+### This is analystics
 <img width="1391" height="907" alt="image" src="https://github.com/user-attachments/assets/6f17dda1-ca62-43bd-a88b-b93d366e59e2" />
-This is a policy tab
+
+### This is a policy tab
 <img width="1620" height="901" alt="image" src="https://github.com/user-attachments/assets/7478e417-5a74-4dbe-a04f-8b08aeea5c19" />
-This is the admin tab 
+
+### This is the admin tab 
 <img width="1560" height="897" alt="image" src="https://github.com/user-attachments/assets/ed1f4cfa-b272-4b4a-821a-f6c70fb9b66e" />
+
 ### Creating a dashboard in the zia zescalar internet access 
 ### click the + icon on the right and select the widget select ttile and the chart 
 <img width="1164" height="862" alt="image" src="https://github.com/user-attachments/assets/3b4bde9b-9034-4a16-8976-83b831aec3a4" />
+
 ### For troubleshotting we will use the analytics tab
-the first section is for the reports and second section (scroll down)
+### the first section is for the reports and second section (scroll down)
 <img width="452" height="855" alt="image" src="https://github.com/user-attachments/assets/9c7b8780-a8d8-4db2-a70b-929b336093e2" />
 
 ### If you want to see the web traffic on the particular ip 
@@ -534,5 +541,58 @@ It shows the ip is denied or something
 ### we can see the device management 
 <img width="1309" height="603" alt="image" src="https://github.com/user-attachments/assets/1eb29398-63bb-4c88-9385-420cfa210db6" />
 
+### Forwarding profile 
+<img width="1155" height="642" alt="image" src="https://github.com/user-attachments/assets/c6bc055a-5b1f-47ce-bee7-cdf3c533c14b" />
 
+### We can see two tunnel versions 1.0 and 2.0
+<img width="864" height="497" alt="image" src="https://github.com/user-attachments/assets/c0947741-6199-49dd-98a1-108570b68530" />
 
+### Ca authentication
+<img width="1235" height="442" alt="image" src="https://github.com/user-attachments/assets/08f3e1d2-0dd9-4317-876c-a2c341dc7a19" />
+
+<img width="1244" height="588" alt="image" src="https://github.com/user-attachments/assets/10a8774e-ae8d-4801-9b47-83bdd7f8d095" />
+
+<img width="1310" height="616" alt="image" src="https://github.com/user-attachments/assets/d15ad070-d441-4e6f-ad67-3fa9bedf2f39" />
+
+<img width="1259" height="688" alt="image" src="https://github.com/user-attachments/assets/5feb5a79-f75b-4486-b89d-c11d56607849" />
+
+### Nano streaming service (Nss) - We can save logs up to 6 months 
+### Nss is deployed in a vm with public ip >>> connected to the ca >>> ca validates the certificate >>> and tells the nss to download pre-defined logs for smsm >>> and forward it to the log server 
+### We can see three systems are running tinynss == nss , rsyslog == siem (example) , zia client ( to configure)
+<img width="1092" height="523" alt="image" src="https://github.com/user-attachments/assets/8ebe9353-a97d-46bd-9126-8f7389cafc2b" />
+
+### nss requires management ip and a servicce ip 
+<img width="1276" height="525" alt="image" src="https://github.com/user-attachments/assets/69750eb9-1b73-4cb2-9fb5-29605a014145" />
+
+### Lets configure the nss - sudo nss configure 
+<img width="759" height="449" alt="image" src="https://github.com/user-attachments/assets/eefbaf7b-897a-47bf-8b67-5077ef14169d" />
+
+### we can see managemnt ip and service ip and default gateway 
+<img width="538" height="312" alt="image" src="https://github.com/user-attachments/assets/f83baca4-a6be-4342-9e43-7d075e097b0e" />
+
+### Lets navigate zcc client 
+<img width="1157" height="822" alt="image" src="https://github.com/user-attachments/assets/5a8b9d94-9f17-462a-865f-07bc3230810f" />
+
+### Add nss server 
+<img width="1467" height="770" alt="image" src="https://github.com/user-attachments/assets/395d1883-927f-4a16-8490-c14f85b52203" />
+
+### Download ssl certificate 
+<img width="1808" height="777" alt="image" src="https://github.com/user-attachments/assets/e5bfb55a-f589-4fa9-82e3-9df93f782e6f" />
+
+### navigate to the nss feeds tab
+<img width="1750" height="891" alt="image" src="https://github.com/user-attachments/assets/972325c5-3183-4380-a7fb-cdd4d40bec85" />
+
+### This will help what logs to extract >> add nss feed 
+<img width="1226" height="589" alt="image" src="https://github.com/user-attachments/assets/e69de7d4-42d6-4763-8c02-6ef7a681a4ea" />
+
+<img width="1111" height="570" alt="image" src="https://github.com/user-attachments/assets/8e28b9ea-6a0a-40c1-b3d1-d37ac3503f8f" />
+
+<img width="1920" height="674" alt="image" src="https://github.com/user-attachments/assets/c98095d6-7601-47c5-92c1-ecbb03db2194" />
+
+<img width="1267" height="573" alt="image" src="https://github.com/user-attachments/assets/fdb022f5-52ea-46cc-9018-7351506ffbc9" />
+
+### Save 
+### We will use winscp to sftp to nss 
+<img width="1761" height="783" alt="image" src="https://github.com/user-attachments/assets/0408309c-aeec-4db1-b100-7773c06d0d0d" />
+
+### This will help send logs to the siem 
